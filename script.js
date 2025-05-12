@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();
     const copyrightElement = document.querySelector('.copyright p');
     if (copyrightElement) {
-        copyrightElement.innerHTML = copyrightElement.innerHTML.replace('2023', currentYear);
+        copyrightElement.innerHTML = copyrightElement.innerHTML.replace('2025', currentYear);
     }
 
     // Add smooth scrolling for anchor links
