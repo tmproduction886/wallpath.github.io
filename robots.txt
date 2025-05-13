@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Allow: /app-ads.txt
+Sitemap: https://wallpath.pro/sitemap.xml 
