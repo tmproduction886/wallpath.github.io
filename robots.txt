@@ -1,6 +1,10 @@
+# Robots.txt file for Wallpath game landing page
 User-agent: *
 Allow: /
 Allow: /app-ads.txt
-Sitemap: https://wallpath.pro/sitemap.xml 
-User-agent: Google-adstxt
-Disallow:
+
+# Sitemap location
+Sitemap: https://wallpath.pro/sitemap.xml
+
+# Allow crawling of all content
+Disallow: 
