@@ -5,24 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Wallpath: Path Puzzle Game | Draw Magical Paths Through Walls</title>
-    <meta name="title" content="Wallpath: Path Puzzle Game | Draw Magical Paths Through Walls">
-    <meta name="description" content="Challenge your mind with Wallpath, the captivating puzzle game where you draw paths through walls to unlock stunning landscape artwork. Download now on iOS!">
-    <meta name="keywords" content="wallpath, puzzle game, path drawing game, wall puzzle, iOS game, mobile puzzle, pathfinder game, brain teaser, landscape art game">
+    <title>Wallpath: Magical Path Puzzle Game | Draw Through Walls | iOS Game</title>
+    <meta name="title" content="Wallpath: Magical Path Puzzle Game | Draw Through Walls | iOS Game">
+    <meta name="description" content="Embark on a magical journey with Wallpath, the captivating puzzle game where you draw paths through enchanted walls to unlock stunning landscape artwork. Download now on iOS!">
+    <meta name="keywords" content="wallpath, puzzle game, path drawing game, wall puzzle, iOS game, mobile puzzle, pathfinder game, brain teaser, landscape art game, magical puzzle, fantasy puzzle game">
+    <meta name="author" content="Wallpath Developer">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wallpath.pro/">
-    <meta property="og:title" content="Wallpath: Path Puzzle Game | Draw Magical Paths Through Walls">
-    <meta property="og:description" content="Challenge your mind with Wallpath, the captivating puzzle game where you draw paths through walls to unlock stunning landscape artwork. Download now on iOS!">
+    <meta property="og:title" content="Wallpath: Magical Path Puzzle Game | Draw Through Walls">
+    <meta property="og:description" content="Embark on a magical journey with Wallpath, the captivating puzzle game where you draw paths through enchanted walls to unlock stunning landscape artwork. Download now on iOS!">
     <meta property="og:image" content="https://wallpath.pro/images/social-share.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Wallpath">
+    <meta property="og:locale" content="en_US">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://wallpath.pro/">
-    <meta property="twitter:title" content="Wallpath: Path Puzzle Game | Draw Magical Paths Through Walls">
-    <meta property="twitter:description" content="Challenge your mind with Wallpath, the captivating puzzle game where you draw paths through walls to unlock stunning landscape artwork. Download now on iOS!">
+    <meta property="twitter:title" content="Wallpath: Magical Path Puzzle Game | Draw Through Walls">
+    <meta property="twitter:description" content="Embark on a magical journey with Wallpath, the captivating puzzle game where you draw paths through enchanted walls to unlock stunning landscape artwork. Download now on iOS!">
     <meta property="twitter:image" content="https://wallpath.pro/images/social-share.jpg">
+    <meta property="twitter:creator" content="@wallpathgame">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://wallpath.pro/">
@@ -33,9 +42,21 @@
     <!-- AdMob app verification -->
     <meta name="admob-site-verification" content="pub-4012812779008735">
     
-    <!-- Favicon and Apple Touch Icon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/app-icon.png">
+    <!-- Favicon and Web App Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#000033">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#000033">
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <meta name="theme-color" content="#000033">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="images/hero-bg.jpg" as="image">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
@@ -43,7 +64,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Structured Data -->
+    <!-- Structured Data - Game Application -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -59,15 +80,80 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "ratingCount": "125"
+        "ratingCount": "125",
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "description": "Challenge your mind with Wallpath, the captivating puzzle game where you draw paths through walls to unlock stunning landscape artwork.",
       "screenshot": "https://wallpath.pro/images/screenshot-1.jpg",
       "softwareVersion": "1.0",
       "author": {
-        "@type": "Person",
-        "name": "Wallpath Developer"
+        "@type": "Organization",
+        "name": "Wallpath Developer",
+        "url": "https://wallpath.pro"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
       }
+    }
+    </script>
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Wallpath",
+      "url": "https://wallpath.pro",
+      "logo": "https://wallpath.pro/images/app-icon.png",
+      "sameAs": [
+        "https://twitter.com/wallpathgame",
+        "https://instagram.com/wallpathgame"
+      ]
+    }
+    </script>
+    
+    <!-- Structured Data - FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Wallpath free to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Wallpath is free to download and play. The game offers optional in-app purchases for additional content and features."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many levels are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wallpath currently features over 100 handcrafted puzzles across multiple difficulty levels, with new content added regularly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need internet to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, Wallpath can be played completely offline. However, an internet connection is required for daily challenges and updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Wallpath available on Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Currently, Wallpath is only available on iOS devices. We're considering an Android version in the future based on player interest."
+          }
+        }
+      ]
     }
     </script>
 </head>
@@ -75,31 +161,69 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="images/app-icon.png" alt="Wallpath Game Logo" width="40" height="40">
+                <img src="images/app-icon.png" alt="Wallpath Game Logo" width="60" height="60">
                 <h1>WALLPATH</h1>
             </div>
-            <p class="tagline">THE PATHFINDER'S JOURNEY</p>
+            <p class="tagline">THE PATHFINDER'S MAGICAL JOURNEY</p>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Draw Magical Paths Through Enchanted Walls</h1>
-                <h2>The Ultimate Path Puzzle Adventure</h2>
-                <p>Challenge your mind with captivating puzzles and unlock stunning landscape artwork in this immersive puzzle adventure. Perfect your pathfinding skills across hundreds of levels with increasing difficulty.</p>
+                <h1>Magical Path Puzzles Through Enchanted Walls</h1>
+                <h2>The Ultimate Fantasy Puzzle Adventure</h2>
+                <p>Challenge your mind with captivating puzzles and unlock stunning magical landscapes in this immersive puzzle adventure. Perfect your pathfinding skills across hundreds of levels with increasing difficulty.</p>
                 <div class="hero-cta">
                     <a href="https://apps.apple.com/app/wallpath-pathfinders-journey/id6745748779" class="app-store-btn" aria-label="Download Wallpath on the App Store">
                         <img src="images/app-store-badge.svg" alt="Download on the App Store" width="180" height="60">
                     </a>
                     <div class="app-rating">
                         <div class="stars">★★★★★</div>
-                        <p>4.8/5 from 125+ reviews</p>
+                        <p><strong>4.8/5</strong> from 125+ reviews</p>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero-device.png" alt="Wallpath Game Screenshot on iPhone" width="350" height="700">
+                <img src="images/hero-device.png" alt="Wallpath Game Screenshot on iPhone" width="350" height="700" loading="eager">
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Magical Game Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧩</div>
+                    <h3>100+ Enchanting Puzzles</h3>
+                    <p>Progress through increasingly challenging levels with unique magical rules and mechanics to master.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖼️</div>
+                    <h3>Stunning Fantasy Artwork</h3>
+                    <p>Unlock beautiful high-resolution magical landscapes as you complete chapters and special challenges.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Daily Quests & Rewards</h3>
+                    <p>Return each day for new puzzles and maintain your streak to earn special in-game rewards and powers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Intuitive Touch Controls</h3>
+                    <p>Simple, responsive controls make the game accessible for puzzle lovers of all ages and skill levels.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Mind-Enhancing Puzzles</h3>
+                    <p>Improve your spatial reasoning and problem-solving skills with each magical level you complete.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Play Anywhere, Anytime</h3>
+                    <p>Enjoy Wallpath anywhere - no internet connection required to play and explore the magical world.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -111,70 +235,32 @@
                 <div class="gameplay-step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>Draw Your Path</h3>
-                        <p>Trace a continuous path through walls to connect the start and end points.</p>
+                        <h3>Draw Your Magical Path</h3>
+                        <p>Trace a continuous path through enchanted walls to connect the start and end points in this fantasy puzzle adventure.</p>
                     </div>
                     <div class="step-image">
-                        <img src="images/screenshot-2.jpg" alt="Drawing a path in Wallpath" width="220" height="440">
+                        <img src="images/screenshot-2.jpg" alt="Drawing a magical path in Wallpath" width="220" height="440" loading="lazy">
                     </div>
                 </div>
                 <div class="gameplay-step">
                     <div class="step-number">2</div>
                     <div class="step-content">
-                        <h3>Solve the Puzzle</h3>
-                        <p>Navigate through obstacles and follow special rules to find the correct solution.</p>
+                        <h3>Solve Mystical Challenges</h3>
+                        <p>Navigate through magical obstacles and follow special rules to find the correct solution to each enchanting puzzle.</p>
                     </div>
                     <div class="step-image">
-                        <img src="images/screenshot-3.jpg" alt="Solving a puzzle in Wallpath" width="220" height="440">
+                        <img src="images/screenshot-3.jpg" alt="Solving a magical puzzle in Wallpath" width="220" height="440" loading="lazy">
                     </div>
                 </div>
                 <div class="gameplay-step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Unlock Artwork</h3>
-                        <p>Complete levels to reveal beautiful landscape artwork and progress through the game.</p>
+                        <h3>Unlock Enchanted Artwork</h3>
+                        <p>Complete levels to reveal beautiful fantasy landscape artwork and progress through the magical game world.</p>
                     </div>
                     <div class="step-image">
-                        <img src="images/screenshot-4.jpg" alt="Unlocked artwork in Wallpath" width="220" height="440">
+                        <img src="images/screenshot-4.jpg" alt="Unlocked magical artwork in Wallpath" width="220" height="440" loading="lazy">
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="features">
-        <div class="container">
-            <h2>Game Features</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🧩</div>
-                    <h3>100+ Challenging Puzzles</h3>
-                    <p>Progress through increasingly difficult levels with unique rules and mechanics to master.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🖼️</div>
-                    <h3>Beautiful Landscape Artwork</h3>
-                    <p>Unlock stunning high-resolution artwork as you complete chapters and special challenges.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🏆</div>
-                    <h3>Daily Challenges & Rewards</h3>
-                    <p>Return each day for new puzzles and maintain your streak to earn special in-game rewards.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📱</div>
-                    <h3>Intuitive Touch Controls</h3>
-                    <p>Simple, responsive controls make the game accessible for puzzle lovers of all ages.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🧠</div>
-                    <h3>Brain-Training Puzzles</h3>
-                    <p>Improve your spatial reasoning and problem-solving skills with each level you complete.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎮</div>
-                    <h3>Offline Play</h3>
-                    <p>Enjoy Wallpath anywhere, anytime - no internet connection required to play.</p>
                 </div>
             </div>
         </div>
@@ -182,23 +268,23 @@
 
     <section class="screenshots">
         <div class="container">
-            <h2>Game Screenshots</h2>
+            <h2>Magical Game World</h2>
             <div class="screenshot-slider">
                 <div class="screenshot">
-                    <img src="images/screenshot-1.jpg" alt="Wallpath Home Screen" width="220" height="440">
-                    <p>Magical Main Menu</p>
+                    <img src="images/screenshot-1.jpg" alt="Wallpath Magical Home Screen" width="220" height="440" loading="lazy">
+                    <p>Enchanted Main Menu</p>
                 </div>
                 <div class="screenshot">
-                    <img src="images/screenshot-2.jpg" alt="Wallpath Puzzle Gameplay" width="220" height="440">
-                    <p>Solve Path Puzzles</p>
+                    <img src="images/screenshot-2.jpg" alt="Wallpath Magical Puzzle Gameplay" width="220" height="440" loading="lazy">
+                    <p>Solve Magical Path Puzzles</p>
                 </div>
                 <div class="screenshot">
-                    <img src="images/screenshot-3.jpg" alt="Wallpath Advanced Puzzle" width="220" height="440">
-                    <p>Master Challenging Levels</p>
+                    <img src="images/screenshot-3.jpg" alt="Wallpath Advanced Fantasy Puzzle" width="220" height="440" loading="lazy">
+                    <p>Master Challenging Magical Levels</p>
                 </div>
                 <div class="screenshot">
-                    <img src="images/screenshot-4.jpg" alt="Wallpath Landscape Artwork" width="220" height="440">
-                    <p>Unlock Beautiful Artwork</p>
+                    <img src="images/screenshot-4.jpg" alt="Wallpath Fantasy Landscape Artwork" width="220" height="440" loading="lazy">
+                    <p>Unlock Beautiful Enchanted Artwork</p>
                 </div>
             </div>
         </div>
@@ -206,21 +292,21 @@
 
     <section class="testimonials">
         <div class="container">
-            <h2>What Players Are Saying</h2>
+            <h2>What Adventurers Are Saying</h2>
             <div class="testimonial-grid">
                 <div class="testimonial">
                     <div class="stars">★★★★★</div>
-                    <p>"The perfect balance of challenge and relaxation. I love unlocking the beautiful landscapes and the daily challenges keep me coming back!"</p>
+                    <p>"The perfect balance of challenge and relaxation. I love unlocking the beautiful magical landscapes and the daily quests keep me coming back for more adventures!"</p>
                     <div class="author">- Sarah K.</div>
                 </div>
                 <div class="testimonial">
                     <div class="stars">★★★★★</div>
-                    <p>"One of the most addictive puzzle games I've played. The path-drawing mechanics are intuitive and the progression system is really rewarding."</p>
+                    <p>"One of the most addictive puzzle games I've played. The magical path-drawing mechanics are intuitive and the progression system is really rewarding."</p>
                     <div class="author">- Mike T.</div>
                 </div>
                 <div class="testimonial">
                     <div class="stars">★★★★★</div>
-                    <p>"The artwork is stunning and the puzzles are cleverly designed. Each level presents a unique challenge that really makes you think. Highly recommended!"</p>
+                    <p>"The fantasy artwork is stunning and the puzzles are cleverly designed. Each level presents a unique magical challenge that really makes you think. Highly recommended!"</p>
                     <div class="author">- Amy L.</div>
                 </div>
             </div>
@@ -231,19 +317,19 @@
         <div class="container">
             <h2>Frequently Asked Questions</h2>
             <div class="faq-list">
-                <div class="faq-item">
+                <div class="faq-item" id="faq-free">
                     <h3>Is Wallpath free to play?</h3>
                     <p>Yes! Wallpath is free to download and play. The game offers optional in-app purchases for additional content and features.</p>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" id="faq-levels">
                     <h3>How many levels are available?</h3>
                     <p>Wallpath currently features over 100 handcrafted puzzles across multiple difficulty levels, with new content added regularly.</p>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" id="faq-internet">
                     <h3>Do I need internet to play?</h3>
                     <p>No, Wallpath can be played completely offline. However, an internet connection is required for daily challenges and updates.</p>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" id="faq-android">
                     <h3>Is Wallpath available on Android?</h3>
                     <p>Currently, Wallpath is only available on iOS devices. We're considering an Android version in the future based on player interest.</p>
                 </div>
@@ -253,8 +339,8 @@
 
     <section class="cta">
         <div class="container">
-            <h2>Begin Your Pathfinding Journey Today</h2>
-            <p>Challenge your mind, solve intricate puzzles, and unlock beautiful landscapes. Available now on the App Store.</p>
+            <h2>Begin Your Magical Pathfinding Journey Today</h2>
+            <p>Challenge your mind, solve intricate puzzles, and unlock beautiful fantasy landscapes. Available now on the App Store.</p>
             <div class="app-links">
                 <a href="https://apps.apple.com/app/wallpath-pathfinders-journey/id6745748779" class="app-store-btn" aria-label="Download Wallpath on the App Store">
                     <img src="images/app-store-badge.svg" alt="Download on the App Store" width="180" height="60">
@@ -280,7 +366,7 @@
                     </div>
                 </div>
                 
-                <p class="support-text">Your support helps indie developers like us continue creating unique puzzle experiences!</p>
+                <p class="support-text">Your support helps indie developers like us continue creating unique magical puzzle experiences!</p>
             </div>
             
             <div class="age-rating">
@@ -297,7 +383,7 @@
                         <img src="images/app-icon.png" alt="Wallpath Logo" width="40" height="40">
                         <h3>WALLPATH</h3>
                     </div>
-                    <p>A mind-bending path puzzle game that challenges your spatial reasoning skills.</p>
+                    <p>A mind-bending magical path puzzle game that challenges your spatial reasoning skills in a fantasy world.</p>
                     <div class="social-links">
                         <a href="https://twitter.com/wallpathgame" aria-label="Follow Wallpath on Twitter" rel="noopener">Twitter</a>
                         <a href="https://instagram.com/wallpathgame" aria-label="Follow Wallpath on Instagram" rel="noopener">Instagram</a>
@@ -322,6 +408,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html> 
